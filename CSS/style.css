@@ -1,0 +1,162 @@
+/* Style pour le bouton d'ajout de tâche */
+#addTask{
+    background-color: violet;
+    color: black;
+    box-shadow: 2px 2px 9px black;
+}
+#addTask:hover{
+    background-color: greenyellow;
+    color: black;
+    box-shadow: 2px 2px 9px black;
+}
+
+/* ################################################################################ */
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #333;
+    transition: left 0.3s;
+    z-index: 1;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+/* ################################################################################ */
+
+/* Styles pour la barre latérale */
+.w3-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: violet;
+    position: fixed !important;
+    z-index: 1;
+    overflow: none;
+}
+.w3-bar-block .w3-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+.w3-bar-block.w3-center .w3-bar-item {
+    text-align: center;
+}
+.w3-block {
+    display: block;
+    width: 100%;
+}
+
+/* ################################################################################ */
+
+/* Styles pour les différents groupes de tâches */
+#div1{
+    background-color: violet;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#div2{
+    background-color: violet;
+    margin-bottom: 5px;
+}
+#div3{
+    background-color: violet;
+    margin-bottom: 5px;
+}
+
+/* ################################################################################ */
+
+/* Styles pour le corps de la page */
+body {
+    background-color: rgb(150, 148, 148);
+    font-family: Arial, sans-serif;
+   }
+
+   /* ################################################################################ */
+
+   /* Styles pour le conteneur principal */
+   .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid gold;
+    border-radius: 30px;
+    color: gold;
+    box-shadow: 5px 5px 9px black;
+   }
+   .container {
+    background: linear-gradient(-45deg, rgb(205, 19, 205), rgb(45, 11, 11), rgb(126, 27, 162), rgb(50, 24, 24));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }  
+
+  /* ################################################################################ */
+
+  /* Styles pour les champs de saisie */
+input {
+    background: rgb(253, 253, 253);
+    padding: 2px;
+}
+
+/* Styles pour le texte de placeholder */
+::placeholder {
+    color: rgb(39, 39, 34);
+    opacity: 0.7;
+}
+
+/* Styles pour les boutons */
+button {
+    background-color: #a1a73d;
+    color: #000080;
+}
+
+/* Styles pour le texte centré en haut */
+.centrerhaut {
+    text-align: center;
+}
+
+/* Styles pour les tâches terminées */
+#taskDone {
+    color: rgb(15, 121, 15);
+    /* opacity: 1;  */
+}
+
+/* ################################################################################ */
+
+/* Style de la video background */
+#space {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+/* ################################################################################ */
